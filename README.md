@@ -1,6 +1,6 @@
 # Cyclistic Bike-Share Analysis Case Study
 
-In this data analysis project, I take on the role of a data analyst for Cyclistic, a fictional bike-share company. To address key business questions, I apply the six-step data analysis process: **[Ask](#-01-ask), [Prepare](#-02-prepare), [Process](#-03-process), [Analyze](#-04-analyze-and--05-share), [Share](#-04-analyze-and--05-share), and [Act](#-06-act)**. This case study is from the [Google Data Analytics Capstone](https://www.coursera.org/learn/google-data-analytics-capstone).
+In this data analysis project, I take on the role of a data analyst for Cyclistic, a fictional bike-share company. To address key business questions, I apply the six-step data analysis process: **[Ask](#-01-ask), [Prepare](#%EF%B8%8F-02-prepare), [Process](#%EF%B8%8F-03-process), [Analyze](#-04-analyze-and--05-share), [Share](#-04-analyze-and--05-share),** and **[Act](#-06-act)**. This case study is from the [Google Data Analytics Capstone](https://www.coursera.org/learn/google-data-analytics-capstone).
 
 ---
 
@@ -291,3 +291,5 @@ Clone the repository:
    ```bash
    git clone https://github.com/michael22leeapp/cyclistic-analysis-case-study.git
    cd cyclistic-analysis-case-study
+   ```
+Thanks for reading!
