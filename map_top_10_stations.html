@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cd2cc8c7e0194191b189ed9dfe096774 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cd2cc8c7e0194191b189ed9dfe096774" ></div>
+        
+</body>
+<script>    
+    
+            var map_cd2cc8c7e0194191b189ed9dfe096774 = L.map(
+                "map_cd2cc8c7e0194191b189ed9dfe096774",
+                {
+                    center: [41.90223891844235, -87.64626133189624],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a78a9b0812f94f8fa745a1a3c19de581 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a78a9b0812f94f8fa745a1a3c19de581.addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var marker_fb963c009858472f866796f2d1a9970b = L.marker(
+                [41.882751965685614, -87.64119029045105],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_ed053bccd8664f6a99cfd44c328d8eb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3e84997624e4ae0b5468ea66acd3557 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74cdb146d5894a2fb9fe2d486d88e146 = $(`<div id="html_74cdb146d5894a2fb9fe2d486d88e146" style="width: 100.0%; height: 100.0%;">Member Station: Clinton St & Madison St</div>`)[0];
+                popup_d3e84997624e4ae0b5468ea66acd3557.setContent(html_74cdb146d5894a2fb9fe2d486d88e146);
+            
+        
+
+        marker_fb963c009858472f866796f2d1a9970b.bindPopup(popup_d3e84997624e4ae0b5468ea66acd3557)
+        ;
+
+        
+    
+    
+                marker_fb963c009858472f866796f2d1a9970b.setIcon(icon_ed053bccd8664f6a99cfd44c328d8eb4);
+            
+    
+            var marker_7d63c18dc9554f50869c9aaa8107135d = L.marker(
+                [41.903222, -87.634324],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_f37d7c12740643599831d06939b696c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29bda120e91045c6aab1224fec37f516 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1cd02acce1d4ef3be2d91cef8f5f4c4 = $(`<div id="html_e1cd02acce1d4ef3be2d91cef8f5f4c4" style="width: 100.0%; height: 100.0%;">Member Station: Wells St & Elm St</div>`)[0];
+                popup_29bda120e91045c6aab1224fec37f516.setContent(html_e1cd02acce1d4ef3be2d91cef8f5f4c4);
+            
+        
+
+        marker_7d63c18dc9554f50869c9aaa8107135d.bindPopup(popup_29bda120e91045c6aab1224fec37f516)
+        ;
+
+        
+    
+    
+                marker_7d63c18dc9554f50869c9aaa8107135d.setIcon(icon_f37d7c12740643599831d06939b696c8);
+            
+    
+            var marker_c62c6885e1c0427ba84758c086813538 = L.marker(
+                [41.88912733333333, -87.63845816666667],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_37250c65c6f64886926e779fc3257dcb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_473103e3957348339056080870989113 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a28b8408d314baabf39f683f4cc75cc = $(`<div id="html_7a28b8408d314baabf39f683f4cc75cc" style="width: 100.0%; height: 100.0%;">Member Station: Kingsbury St & Kinzie St</div>`)[0];
+                popup_473103e3957348339056080870989113.setContent(html_7a28b8408d314baabf39f683f4cc75cc);
+            
+        
+
+        marker_c62c6885e1c0427ba84758c086813538.bindPopup(popup_473103e3957348339056080870989113)
+        ;
+
+        
+    
+    
+                marker_c62c6885e1c0427ba84758c086813538.setIcon(icon_37250c65c6f64886926e779fc3257dcb);
+            
+    
+            var marker_c1c1036f314248618a845836f968538c = L.marker(
+                [41.88322401, -87.641180754],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_ed8b6a02a12241e096134348010c9708 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_059346f6fb894f159aba8adcdc7dd238 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb04e64c3aa94b2296c12b3e9fefda8a = $(`<div id="html_fb04e64c3aa94b2296c12b3e9fefda8a" style="width: 100.0%; height: 100.0%;">Member Station: Clinton St & Washington Blvd</div>`)[0];
+                popup_059346f6fb894f159aba8adcdc7dd238.setContent(html_fb04e64c3aa94b2296c12b3e9fefda8a);
+            
+        
+
+        marker_c1c1036f314248618a845836f968538c.bindPopup(popup_059346f6fb894f159aba8adcdc7dd238)
+        ;
+
+        
+    
+    
+                marker_c1c1036f314248618a845836f968538c.setIcon(icon_ed8b6a02a12241e096134348010c9708);
+            
+    
+            var marker_f1af0beaed2043c4ba581a3fc6a7f968 = L.marker(
+                [41.896544456, -87.628626943],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_47c3aec9b94645d88a1c404cf06b681d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_986418ea80af403aaf8ef07eaffe15c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ec61726647b4eaea6f5f9991534eb7a = $(`<div id="html_5ec61726647b4eaea6f5f9991534eb7a" style="width: 100.0%; height: 100.0%;">Member Station: State St & Chicago Ave</div>`)[0];
+                popup_986418ea80af403aaf8ef07eaffe15c3.setContent(html_5ec61726647b4eaea6f5f9991534eb7a);
+            
+        
+
+        marker_f1af0beaed2043c4ba581a3fc6a7f968.bindPopup(popup_986418ea80af403aaf8ef07eaffe15c3)
+        ;
+
+        
+    
+    
+                marker_f1af0beaed2043c4ba581a3fc6a7f968.setIcon(icon_47c3aec9b94645d88a1c404cf06b681d);
+            
+    
+            var marker_17f9abb016084b909d16db5931794bc0 = L.marker(
+                [41.912133, -87.634656],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_ac3795286ff048ea8b1076633f1295fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8fbcb570f0194931843f9d7f63daad58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_deb3c9a2d07746f2a9120c29c4d5ba90 = $(`<div id="html_deb3c9a2d07746f2a9120c29c4d5ba90" style="width: 100.0%; height: 100.0%;">Member Station: Wells St & Concord Ln</div>`)[0];
+                popup_8fbcb570f0194931843f9d7f63daad58.setContent(html_deb3c9a2d07746f2a9120c29c4d5ba90);
+            
+        
+
+        marker_17f9abb016084b909d16db5931794bc0.bindPopup(popup_8fbcb570f0194931843f9d7f63daad58)
+        ;
+
+        
+    
+    
+                marker_17f9abb016084b909d16db5931794bc0.setIcon(icon_ac3795286ff048ea8b1076633f1295fc);
+            
+    
+            var marker_8f3561e02ff94e3bb6283648c21d2ee4 = L.marker(
+                [41.878346324, -87.64142859],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_955098d6992e43aeb970e4c96d6521e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91faa0c53fa6404997a4ea231ebd7449 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33a741367d28406dafbbd9fa76a26166 = $(`<div id="html_33a741367d28406dafbbd9fa76a26166" style="width: 100.0%; height: 100.0%;">Member Station: Clinton St & Jackson Blvd</div>`)[0];
+                popup_91faa0c53fa6404997a4ea231ebd7449.setContent(html_33a741367d28406dafbbd9fa76a26166);
+            
+        
+
+        marker_8f3561e02ff94e3bb6283648c21d2ee4.bindPopup(popup_91faa0c53fa6404997a4ea231ebd7449)
+        ;
+
+        
+    
+    
+                marker_8f3561e02ff94e3bb6283648c21d2ee4.setIcon(icon_955098d6992e43aeb970e4c96d6521e6);
+            
+    
+            var marker_90084744b3304220b4bd2b3e98bf0ce9 = L.marker(
+                [41.893992, -87.629318],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_673da61330cc49189f727d88b5f4391a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d02987e27b04ef5bda3c9d3c0f27e7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07acee9a9bef45e5b25ae6a417ca6350 = $(`<div id="html_07acee9a9bef45e5b25ae6a417ca6350" style="width: 100.0%; height: 100.0%;">Member Station: Dearborn St & Erie St</div>`)[0];
+                popup_6d02987e27b04ef5bda3c9d3c0f27e7d.setContent(html_07acee9a9bef45e5b25ae6a417ca6350);
+            
+        
+
+        marker_90084744b3304220b4bd2b3e98bf0ce9.bindPopup(popup_6d02987e27b04ef5bda3c9d3c0f27e7d)
+        ;
+
+        
+    
+    
+                marker_90084744b3304220b4bd2b3e98bf0ce9.setIcon(icon_673da61330cc49189f727d88b5f4391a);
+            
+    
+            var marker_75f34433add34b12b2163b95081b10fb = L.marker(
+                [41.902973, -87.63128],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_b2e5fb41386d4ed386ee05cf32050aeb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fbc2cabdcb75433599fbcbacb509d609 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3acebb57593944519b68e63f3109b557 = $(`<div id="html_3acebb57593944519b68e63f3109b557" style="width: 100.0%; height: 100.0%;">Member Station: Clark St & Elm St</div>`)[0];
+                popup_fbc2cabdcb75433599fbcbacb509d609.setContent(html_3acebb57593944519b68e63f3109b557);
+            
+        
+
+        marker_75f34433add34b12b2163b95081b10fb.bindPopup(popup_fbc2cabdcb75433599fbcbacb509d609)
+        ;
+
+        
+    
+    
+                marker_75f34433add34b12b2163b95081b10fb.setIcon(icon_b2e5fb41386d4ed386ee05cf32050aeb);
+            
+    
+            var marker_1a815480e6ab4a36925d5e4fb16a3e5a = L.marker(
+                [41.882409, -87.639767],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_64e38348260049559edd23f0e08bf614 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85e5493dec94444aacb46f5142287bf7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dae4d5a1518549f1916d99ee05d950fc = $(`<div id="html_dae4d5a1518549f1916d99ee05d950fc" style="width: 100.0%; height: 100.0%;">Member Station: Canal St & Madison St</div>`)[0];
+                popup_85e5493dec94444aacb46f5142287bf7.setContent(html_dae4d5a1518549f1916d99ee05d950fc);
+            
+        
+
+        marker_1a815480e6ab4a36925d5e4fb16a3e5a.bindPopup(popup_85e5493dec94444aacb46f5142287bf7)
+        ;
+
+        
+    
+    
+                marker_1a815480e6ab4a36925d5e4fb16a3e5a.setIcon(icon_64e38348260049559edd23f0e08bf614);
+            
+    
+            var marker_11efb677f30a4aee810c9025148e59bf = L.marker(
+                [41.892278, -87.612043],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_229b89d05a3647869c7352db336d73d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44c541cb8c0346f1a2b2830f5bb0edce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e0e044d37c6438f93d8d09671a48b36 = $(`<div id="html_6e0e044d37c6438f93d8d09671a48b36" style="width: 100.0%; height: 100.0%;">Casual Station: Streeter Dr & Grand Ave</div>`)[0];
+                popup_44c541cb8c0346f1a2b2830f5bb0edce.setContent(html_6e0e044d37c6438f93d8d09671a48b36);
+            
+        
+
+        marker_11efb677f30a4aee810c9025148e59bf.bindPopup(popup_44c541cb8c0346f1a2b2830f5bb0edce)
+        ;
+
+        
+    
+    
+                marker_11efb677f30a4aee810c9025148e59bf.setIcon(icon_229b89d05a3647869c7352db336d73d2);
+            
+    
+            var marker_a6db09ace972461c8c47de72559b608f = L.marker(
+                [41.866095, -87.607267],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_f03143f616e341488251673abffc2af4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4118ea41461e402ca4de2ff4036b6844 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6a9343257ff44fc8b7d8e98bf6d7f91 = $(`<div id="html_b6a9343257ff44fc8b7d8e98bf6d7f91" style="width: 100.0%; height: 100.0%;">Casual Station: Adler Planetarium</div>`)[0];
+                popup_4118ea41461e402ca4de2ff4036b6844.setContent(html_b6a9343257ff44fc8b7d8e98bf6d7f91);
+            
+        
+
+        marker_a6db09ace972461c8c47de72559b608f.bindPopup(popup_4118ea41461e402ca4de2ff4036b6844)
+        ;
+
+        
+    
+    
+                marker_a6db09ace972461c8c47de72559b608f.setIcon(icon_f03143f616e341488251673abffc2af4);
+            
+    
+            var marker_299777fa900346f6a654346f8c78e12a = L.marker(
+                [41.880962133, -87.61677742],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_5a135bbcfc4a47e58b47a841582c3592 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d544f4477e404505b3675a6e13197cc5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2dc33f76e19d4a74a8d249f36be672d1 = $(`<div id="html_2dc33f76e19d4a74a8d249f36be672d1" style="width: 100.0%; height: 100.0%;">Casual Station: DuSable Lake Shore Dr & Monroe St</div>`)[0];
+                popup_d544f4477e404505b3675a6e13197cc5.setContent(html_2dc33f76e19d4a74a8d249f36be672d1);
+            
+        
+
+        marker_299777fa900346f6a654346f8c78e12a.bindPopup(popup_d544f4477e404505b3675a6e13197cc5)
+        ;
+
+        
+    
+    
+                marker_299777fa900346f6a654346f8c78e12a.setIcon(icon_5a135bbcfc4a47e58b47a841582c3592);
+            
+    
+            var marker_34c3b511ed0147a39d7bd952186f8041 = L.marker(
+                [41.8810317, -87.62408432],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_82ae74a51e7b4d8aa06626bc686a5ff8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67aec0bb78db4dc6868704df634586bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4067f51a93384398b0f6e95b98a37acc = $(`<div id="html_4067f51a93384398b0f6e95b98a37acc" style="width: 100.0%; height: 100.0%;">Casual Station: Millennium Park</div>`)[0];
+                popup_67aec0bb78db4dc6868704df634586bc.setContent(html_4067f51a93384398b0f6e95b98a37acc);
+            
+        
+
+        marker_34c3b511ed0147a39d7bd952186f8041.bindPopup(popup_67aec0bb78db4dc6868704df634586bc)
+        ;
+
+        
+    
+    
+                marker_34c3b511ed0147a39d7bd952186f8041.setIcon(icon_82ae74a51e7b4d8aa06626bc686a5ff8);
+            
+    
+            var marker_3a7bd998c928493f8e79dcae27f74d8c = L.marker(
+                [41.911722, -87.626804],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_1058b312a7d9473bb4f33a251f457df5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe3d4625d83a451cb11c2ecebe0d3419 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96e3654f13a54002acaf6bf78091fc46 = $(`<div id="html_96e3654f13a54002acaf6bf78091fc46" style="width: 100.0%; height: 100.0%;">Casual Station: DuSable Lake Shore Dr & North Blvd</div>`)[0];
+                popup_fe3d4625d83a451cb11c2ecebe0d3419.setContent(html_96e3654f13a54002acaf6bf78091fc46);
+            
+        
+
+        marker_3a7bd998c928493f8e79dcae27f74d8c.bindPopup(popup_fe3d4625d83a451cb11c2ecebe0d3419)
+        ;
+
+        
+    
+    
+                marker_3a7bd998c928493f8e79dcae27f74d8c.setIcon(icon_1058b312a7d9473bb4f33a251f457df5);
+            
+    
+            var marker_ee1bcae106bc4368a3c357b464b25099 = L.marker(
+                [41.867370725, -87.615810037],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_24086d49754a40c8a678c4db3a6cddd8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_148d31567fa54d958a6e1c28d3108502 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d9dfe7a0b7f4801b192a8025aa82e9c = $(`<div id="html_6d9dfe7a0b7f4801b192a8025aa82e9c" style="width: 100.0%; height: 100.0%;">Casual Station: Shedd Aquarium</div>`)[0];
+                popup_148d31567fa54d958a6e1c28d3108502.setContent(html_6d9dfe7a0b7f4801b192a8025aa82e9c);
+            
+        
+
+        marker_ee1bcae106bc4368a3c357b464b25099.bindPopup(popup_148d31567fa54d958a6e1c28d3108502)
+        ;
+
+        
+    
+    
+                marker_ee1bcae106bc4368a3c357b464b25099.setIcon(icon_24086d49754a40c8a678c4db3a6cddd8);
+            
+    
+            var marker_524ccecffe9844d485771d494097ae9b = L.marker(
+                [41.926277, -87.630834],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_ec6dd82c05f5408ea6c617fec7c8f7f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16aa4acc7c2f4bb89f056cf78ed2aa2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2dd6325802c489c931420e3106d7dc3 = $(`<div id="html_b2dd6325802c489c931420e3106d7dc3" style="width: 100.0%; height: 100.0%;">Casual Station: Theater on the Lake</div>`)[0];
+                popup_16aa4acc7c2f4bb89f056cf78ed2aa2e.setContent(html_b2dd6325802c489c931420e3106d7dc3);
+            
+        
+
+        marker_524ccecffe9844d485771d494097ae9b.bindPopup(popup_16aa4acc7c2f4bb89f056cf78ed2aa2e)
+        ;
+
+        
+    
+    
+                marker_524ccecffe9844d485771d494097ae9b.setIcon(icon_ec6dd82c05f5408ea6c617fec7c8f7f6);
+            
+    
+            var marker_cf51474773884a529b1948ccbb6e1131 = L.marker(
+                [41.886976, -87.612813],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_534fd484d5714e508d760d43155a1e6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01d6c5408a4c478b8ba1ab1078d1767e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_371a8cdf9b7e4652a1a6f3631f5882e3 = $(`<div id="html_371a8cdf9b7e4652a1a6f3631f5882e3" style="width: 100.0%; height: 100.0%;">Casual Station: Dusable Harbor</div>`)[0];
+                popup_01d6c5408a4c478b8ba1ab1078d1767e.setContent(html_371a8cdf9b7e4652a1a6f3631f5882e3);
+            
+        
+
+        marker_cf51474773884a529b1948ccbb6e1131.bindPopup(popup_01d6c5408a4c478b8ba1ab1078d1767e)
+        ;
+
+        
+    
+    
+                marker_cf51474773884a529b1948ccbb6e1131.setIcon(icon_534fd484d5714e508d760d43155a1e6a);
+            
+    
+            var marker_b06220587ee849369f3ee31f5a9978ae = L.marker(
+                [41.872773, -87.623981],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_0ca4f25979704ef0bf0d08059ebcf23b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e344ed6ef6f47bc9446f86be15ca1ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6ab823abbd2468bb5134e3ee25635d5 = $(`<div id="html_c6ab823abbd2468bb5134e3ee25635d5" style="width: 100.0%; height: 100.0%;">Casual Station: Michigan Ave & 8th St</div>`)[0];
+                popup_1e344ed6ef6f47bc9446f86be15ca1ab.setContent(html_c6ab823abbd2468bb5134e3ee25635d5);
+            
+        
+
+        marker_b06220587ee849369f3ee31f5a9978ae.bindPopup(popup_1e344ed6ef6f47bc9446f86be15ca1ab)
+        ;
+
+        
+    
+    
+                marker_b06220587ee849369f3ee31f5a9978ae.setIcon(icon_0ca4f25979704ef0bf0d08059ebcf23b);
+            
+    
+            var marker_79f6357f841c45f4aa7e39a9d724d6f9 = L.marker(
+                [41.90096039, -87.62377664],
+                {
+}
+            ).addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+            var icon_ce7e7a47b04c4739a453955eba354a04 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfd0ce3fdffd4907bcb3f4045eae7845 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee7272d2746242339f7bb04aad0550da = $(`<div id="html_ee7272d2746242339f7bb04aad0550da" style="width: 100.0%; height: 100.0%;">Casual Station: Michigan Ave & Oak St</div>`)[0];
+                popup_dfd0ce3fdffd4907bcb3f4045eae7845.setContent(html_ee7272d2746242339f7bb04aad0550da);
+            
+        
+
+        marker_79f6357f841c45f4aa7e39a9d724d6f9.bindPopup(popup_dfd0ce3fdffd4907bcb3f4045eae7845)
+        ;
+
+        
+    
+    
+                marker_79f6357f841c45f4aa7e39a9d724d6f9.setIcon(icon_ce7e7a47b04c4739a453955eba354a04);
+            
+    
+            tile_layer_a78a9b0812f94f8fa745a1a3c19de581.addTo(map_cd2cc8c7e0194191b189ed9dfe096774);
+        
+    
+                marker_fb963c009858472f866796f2d1a9970b.setIcon(icon_ed053bccd8664f6a99cfd44c328d8eb4);
+            
+    
+                marker_7d63c18dc9554f50869c9aaa8107135d.setIcon(icon_f37d7c12740643599831d06939b696c8);
+            
+    
+                marker_c62c6885e1c0427ba84758c086813538.setIcon(icon_37250c65c6f64886926e779fc3257dcb);
+            
+    
+                marker_c1c1036f314248618a845836f968538c.setIcon(icon_ed8b6a02a12241e096134348010c9708);
+            
+    
+                marker_f1af0beaed2043c4ba581a3fc6a7f968.setIcon(icon_47c3aec9b94645d88a1c404cf06b681d);
+            
+    
+                marker_17f9abb016084b909d16db5931794bc0.setIcon(icon_ac3795286ff048ea8b1076633f1295fc);
+            
+    
+                marker_8f3561e02ff94e3bb6283648c21d2ee4.setIcon(icon_955098d6992e43aeb970e4c96d6521e6);
+            
+    
+                marker_90084744b3304220b4bd2b3e98bf0ce9.setIcon(icon_673da61330cc49189f727d88b5f4391a);
+            
+    
+                marker_75f34433add34b12b2163b95081b10fb.setIcon(icon_b2e5fb41386d4ed386ee05cf32050aeb);
+            
+    
+                marker_1a815480e6ab4a36925d5e4fb16a3e5a.setIcon(icon_64e38348260049559edd23f0e08bf614);
+            
+    
+                marker_11efb677f30a4aee810c9025148e59bf.setIcon(icon_229b89d05a3647869c7352db336d73d2);
+            
+    
+                marker_a6db09ace972461c8c47de72559b608f.setIcon(icon_f03143f616e341488251673abffc2af4);
+            
+    
+                marker_299777fa900346f6a654346f8c78e12a.setIcon(icon_5a135bbcfc4a47e58b47a841582c3592);
+            
+    
+                marker_34c3b511ed0147a39d7bd952186f8041.setIcon(icon_82ae74a51e7b4d8aa06626bc686a5ff8);
+            
+    
+                marker_3a7bd998c928493f8e79dcae27f74d8c.setIcon(icon_1058b312a7d9473bb4f33a251f457df5);
+            
+    
+                marker_ee1bcae106bc4368a3c357b464b25099.setIcon(icon_24086d49754a40c8a678c4db3a6cddd8);
+            
+    
+                marker_524ccecffe9844d485771d494097ae9b.setIcon(icon_ec6dd82c05f5408ea6c617fec7c8f7f6);
+            
+    
+                marker_cf51474773884a529b1948ccbb6e1131.setIcon(icon_534fd484d5714e508d760d43155a1e6a);
+            
+    
+                marker_b06220587ee849369f3ee31f5a9978ae.setIcon(icon_0ca4f25979704ef0bf0d08059ebcf23b);
+            
+    
+                marker_79f6357f841c45f4aa7e39a9d724d6f9.setIcon(icon_ce7e7a47b04c4739a453955eba354a04);
+            
+</script>
