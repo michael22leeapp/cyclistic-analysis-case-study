@@ -34,7 +34,7 @@ Moreno has set a clear goal: Design marketing strategies aimed at converting cas
 
 Analyze how casual riders and annual members use Cyclistic bikes differently to support a marketing strategy that converts casual riders into annual members.
 
-**Guiding question**: How do we convert casual riders into annual members?
+**Guiding question**: How do I convert casual riders into annual members?
 
 **Key stakeholders**: Lily Moreno (Director of marketing), Cyclistic executives, marketing analytics team, customers
 
@@ -137,7 +137,7 @@ This summary provides insights into how ride lengths differ between casual rider
 - **Members** show more consistent ride durations, indicated by a lower standard deviation and a tighter range between the 25th and 75th percentiles
 - The maximum ride duration for both groups is now under 1 hour 40 minutes for both groups, which is much more realistic than before filtering
 
-We can split the dataframe into two different sets for members (`member_df`) and casual riders (`casual_df`) for further exploration.
+I can split the dataframe into two different sets for members (`member_df`) and casual riders (`casual_df`) for further exploration.
 
 ### Members vs. Casual Riders Trends
 
@@ -155,7 +155,7 @@ In this normalized version, casual riders show a higher proportion of their annu
 
 #### Day Counts
 
-Like with the months, we will consider the normalized distribution of daily rides to better compare ride patterns.
+Like with the months, I consider the normalized distribution of daily rides to better compare ride patterns.
 
 ![image](https://github.com/user-attachments/assets/dfd8c0c8-bb44-4c8f-af45-18e08cc653d9)
 
@@ -165,7 +165,7 @@ Like with the months, we will consider the normalized distribution of daily ride
 
 ![image](https://github.com/user-attachments/assets/7d324372-ceab-4f92-b402-4542cf1244cd)
 
-Both groups prefer to ride at similar hours. We see a peak in afternoon times around 5 PM for both members and casual riders. However, one distinction is that there is another peak in the morning around 8 AM as well for members, while the proportion of rides for casual riders is lower.
+Both groups prefer to ride at similar hours. There is a peak in afternoon times around 5 PM for both members and casual riders. However, one distinction is that there is another peak in the morning around 8 AM as well for members, while the proportion of rides for casual riders is lower.
 
 **Findings for Time-Based Data**
 
